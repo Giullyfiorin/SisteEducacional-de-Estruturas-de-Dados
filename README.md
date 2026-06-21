@@ -1,28 +1,37 @@
 # Sistema Educacional de Estruturas de Dados
 
-Projeto desenvolvido em Python para demonstrar a implementação prática de estruturas de dados fundamentais, aplicando conceitos de Programação Orientada a Objetos, listas encadeadas, filas com prioridade e tabelas hash.
+Projeto desenvolvido em Python para demonstrar a implementação prática de estruturas de dados fundamentais, utilizando Programação Orientada a Objetos (POO), listas encadeadas e tabelas hash.
 
 ## Objetivo
 
-O projeto foi criado com fins educacionais para praticar e demonstrar o funcionamento interno de estruturas de dados amplamente utilizadas em sistemas computacionais.
+O objetivo deste projeto é apresentar, de forma prática e interativa, conceitos importantes de Estruturas de Dados por meio de um sistema executado via terminal.
 
 ## Funcionalidades
 
-### Fila Hospitalar com Prioridade
+### 🏥 Fila Hospitalar com Prioridade
 
-* Cadastro de pacientes
-* Atendimento por ordem de prioridade
-* Controle automático de senhas
+Implementação de uma fila baseada em lista encadeada para simular um sistema de triagem hospitalar.
+
+Funcionalidades:
+
+* Cadastro de pacientes prioritários e não prioritários
+* Numeração automática de atendimento
 * Exibição da fila de espera
+* Atendimento de pacientes
 * Contagem de pacientes aguardando atendimento
 
-### Tabela Hash de Estados
+### 🗂️ Tabela Hash de Estados
+
+Implementação de uma tabela hash utilizando encadeamento para tratamento de colisões.
+
+Funcionalidades:
 
 * Inserção de elementos
 * Busca por sigla
 * Remoção de elementos
-* Tratamento de colisões por encadeamento
-* Estatísticas da tabela hash
+* Visualização completa da tabela
+* Estatísticas de ocupação e colisões
+* Tratamento de colisões por lista encadeada
 
 ## Tecnologias Utilizadas
 
@@ -36,7 +45,9 @@ O projeto foi criado com fins educacionais para praticar e demonstrar o funciona
 * Fila com Prioridade
 * Tabela Hash
 * Encadeamento
-* Busca e Remoção de Dados
+* Busca de Dados
+* Remoção de Dados
+* Tratamento de Colisões
 * Modularização de Código
 
 ## Estrutura do Projeto
@@ -45,23 +56,72 @@ O projeto foi criado com fins educacionais para praticar e demonstrar o funciona
 Sistema Educacional de Estruturas de Dados
 │
 ├── estruturas
+│   ├── __init__.py
 │   ├── fila_hospital.py
-│   ├── tabela_hash.py
-│   └── __init__.py
+│   └── tabela_hash.py
 │
 ├── screenshots
+│   ├── menu-principal.png
+│   ├── fila-hospitalar.png
+│   ├── tabela-hash.png
+│   └── estatisticas.png
+│
 ├── main.py
-└── README.md
+├── README.md
+└── .gitattributes
 ```
 
 ## Como Executar
+
+Clone o repositório:
+
+```bash
+git clone https://github.com/Giullyfiorin/estrutura-de-dados-python.git
+```
+
+Acesse a pasta:
+
+```bash
+cd estrutura-de-dados-python
+```
+
+Execute o sistema:
 
 ```bash
 python main.py
 ```
 
+## Capturas de Tela
+
+### Menu Principal
+
+![Menu Principal](screenshots/menu-principal.png)
+
+### Fila Hospitalar
+
+![Fila Hospitalar](screenshots/fila-hospitalar.png)
+
+### Tabela Hash
+
+![Tabela Hash](screenshots/tabela-hash.png)
+
+### Estatísticas
+
+![Estatísticas](screenshots/estatisticas.png)
+
+## Aprendizados
+
+Durante o desenvolvimento deste projeto foram praticados conceitos importantes de:
+
+* Programação Orientada a Objetos
+* Estruturas de Dados
+* Organização de projetos Python
+* Modularização de código
+* Manipulação de listas encadeadas
+* Implementação de tabelas hash
+
 ## Autor
 
-Giully Fiorin
+**Giully Fiorin**
 
-Estudante de Análise e Desenvolvimento de Sistemas com foco em desenvolvimento de software, suporte técnico e infraestrutura de TI.
+Estudante de Análise e Desenvolvimento de Sistemas com interesse em Desenvolvimento de Software, Suporte Técnico, Redes e Infraestrutura de TI.
