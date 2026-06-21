@@ -93,21 +93,13 @@ python main.py
 
 ## Capturas de Tela
 
-### Menu Principal
+![Menu Principal](capturas%20de%20tela/menu-principal.png)
 
-![Menu Principal](screenshots/menu-principal.png)
+![Fila Hospitalar](capturas%20de%20tela/fila-hospitalar.png)
 
-### Fila Hospitalar
+![Tabela Hash](capturas%20de%20tela/tabela-hash.png)
 
-![Fila Hospitalar](screenshots/fila-hospitalar.png)
-
-### Tabela Hash
-
-![Tabela Hash](screenshots/tabela-hash.png)
-
-### Estatísticas
-
-![Estatísticas](screenshots/estatisticas.png)
+![Estatísticas](capturas%20de%20tela/estatisticas.png)
 
 ## Aprendizados
 
